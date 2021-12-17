@@ -1,0 +1,8 @@
+{
+  "name": "Jokes",
+  "preset": "jest-puppeteer",
+  "testMatch": ["<rootDir>/tests/e2e.js"],
+  "globalSetup": "./tests/puppeteer_setup.js",
+  "globalTeardown": "./tests/puppeteer_teardown.js",
+  "testEnvironment": "./tests/puppeteer_environment.js"
+}

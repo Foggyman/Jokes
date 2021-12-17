@@ -1,0 +1,35 @@
+@use 'colors';
+@use 'fonts';
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: colors.$background;
+	font-family: fonts.$base;
+	color: colors.$normal-text;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+	height: 100%;
+}
+
+//some fast class utility
+$spaceamounts: (1,2,3,4,5,10); // Adjust this to include the values you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+
+@each $space in $spaceamounts {
+	@each $side in $sides {
+		.m#{str-slice($side, 0, 1)}-#{$space}-rem {
+			margin-#{$side}: #{$space}rem !important;
+		}
+
+		.p#{str-slice($side, 0, 1)}-#{$space}-rem {
+			padding-#{$side}: #{$space}rem !important;
+		}
+
+	}
+}

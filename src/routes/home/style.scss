@@ -1,0 +1,10 @@
+@use 'src/style/vars';
+
+.home {
+	padding-top: vars.$header-height-xs;
+	min-height: 100%;
+	width: 100%;
+	@media screen and (min-width: vars.$sm-bp){
+		padding-top: vars.$header-height-sm;
+	}
+}

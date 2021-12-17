@@ -1,0 +1,53 @@
+extends: [
+    eslint-config-airbnb,
+    preact
+]
+
+ignorePatterns: [
+    "build/",
+    "tests/"
+]
+
+settings:
+  ecmascript: 6
+
+env:
+  browser: true
+
+rules:
+  no-else-return: 0
+  operator-linebreak: 0
+  object-curly-newline: 0
+  no-multiple-empty-lines: 0
+  linebreak-style: 'off'
+  arrow-body-style: 0
+  arrow-parens: 0
+  class-methods-use-this: 0
+  comma-dangle: ["error", {
+    "arrays": "always-multiline",
+    "objects": "always-multiline",
+    "imports": "always-multiline",
+    "exports": "always-multiline",
+    "functions": "never"
+  }]
+  func-names: 0
+  function-paren-newline: 0
+  indent: 2
+  jsx-quotes: [2, "prefer-single"]
+  max-len: ["error", { "code": 120 }]
+  new-cap: 0
+  no-plusplus: 0
+  no-return-assign: 0
+  prefer-destructuring: 0
+  quote-props: 0
+  template-curly-spacing: [2, "always"]
+  jsx-a11y/label-has-associated-control: 0
+  react-in-jsx-scope: 0
+  # import rules
+  import/extensions: 0
+  import/no-extraneous-dependencies: 0
+  import/no-unresolved: 0
+  import/prefer-default-export: 0
+  import/no-cycle: 0
+  # react
+  react/prop-types: 0
