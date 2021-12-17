@@ -18,6 +18,7 @@ const SearchJoke = function({ searchJoke, placeholder = "Search a joke" }) {
       searchJoke(e.target.value);
     }
   }
+
   const debauncedOnSearch = useRef(debounce(onSearchChange, DEBOUNCE_TIMER_AUTOSEARCH)).current;
 
   const onInputChange = e => {
@@ -30,10 +31,18 @@ const SearchJoke = function({ searchJoke, placeholder = "Search a joke" }) {
     searchJoke(searchValue);
   };
 
+  const inputRef = useRef();
+
+  const submitHandler = e => {
+    onSearch(e);
+    inputRef.current.blur();
+  }
+
   return (
     <div className={style['search-joke']}>
-      <form role='search' onSubmit={onSearch}>
+      <form role='search' onSubmit={submitHandler}>
         <input
+          ref={inputRef}
           type='search'
           autoComplete='off'
           spellCheck='false'

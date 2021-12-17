@@ -40,7 +40,7 @@ This is a project I developed for a test for a job application. I add here both 
 text of the test and the steps of my work and some thoughts during it.
 
 
-#The Test
+# The Test
 
 The purpose of this test is not only to quickly gauge an applicant's abilities with a simple HTML/CSS mockup, but also their approach to development. It is intended to spend 2-4 hours on the test.
 
@@ -66,15 +66,15 @@ Clean code
 This fictitious project is part of a larger plan to reuse templates for multiple properties. When authoring your CSS ensure that it is easy for another developer to find and change things such as fonts and colours.
 
 
-###The Test
+### The Test
 Create a simple page called JOKES to display data available at https://api.chucknorris.io/jokes/search?query=[QUERY] (API specs can be found at https://api.chucknorris.io). When a user access the website a simple Google-like home page is shown with a big search box in the middle. Under the search box a new random JOKE is shown every 3 seconds (API for random JOKE https://api.chucknorris.io/jokes/random).
 By typing one or more term in the searchbox a list of matching JOKES are displayed in the page.
 
 
-###Some Extras
+### Some Extras
 Feel free to add as many improvements you want in the project, both in the source or on the final page/application.
 
-####Extra credits on code:
+#### Extra credits on code:
 - Simplicity, scalability
 - Linter
 - Usage of a template engine
@@ -87,7 +87,7 @@ Feel free to add as many improvements you want in the project, both in the sourc
 - ...Many more
 
 
-####Extra credits on frontend:
+#### Extra credits on frontend:
 - Speed, performance, speed, speed
 - Effects and animation for random JOKE
 - Results displayed in a responsive grid
@@ -103,7 +103,7 @@ Feel free to add as many improvements you want in the project, both in the sourc
 Good luck!
 We look forward to seeing what you can do. Remember, although it is a test, there are no specific right or wrong answers that we are looking for - just do the job as best you can. Feel free to ask for any doubts or questions to sandro.bottoni@24orebs.com.
 
-# My toughts during the work
+# My thoughts during the work
 
 ### The first evening/night
 While doing this test I want to take the opportunity to try some new stuff, in particular I want to try PReact as i know React very well and I only read about PReact, without truly trying it . (And I know that the company I am doing this test for use React in its stack)
