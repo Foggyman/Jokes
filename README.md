@@ -35,7 +35,7 @@ npm run storybook
 
 
 
-#What is this
+# What is this
 This is a project I developed for a test for a job application. I add here both the
 text of the test and the steps of my work and some thoughts during it.
 
