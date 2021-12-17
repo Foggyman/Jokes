@@ -156,6 +156,8 @@ Ok now time to add storybook to the project, it actually does not have much sens
 ...that worked out nicer then I taught.
 Configuring sass on storybook took a little because of the css loader module configuration that was not well documented at all and so I decided to call the test done...
 
+Time to write, I spend the next hour writing this very readme... it is the second late night in row so, please, don't judge too harshly the babling about my code :)
+
 ## Those things could/should have been added:
 
 - Husky
