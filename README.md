@@ -35,12 +35,12 @@ npm run storybook
 
 
 
-#What is this
+# What is this
 This is a project I developed for a test of a work application. I add here both the
 text of the test and the steps of my work and some thoughts during it.
 
 
-#The Test
+# The Test
 
 The purpose of this test is not only to quickly gauge an applicant's abilities with a simple HTML/CSS mockup, but also their approach to development. It is intended to spend 2-4 hours on the test.
 
@@ -66,15 +66,15 @@ Clean code
 This fictitious project is part of a larger plan to reuse templates for multiple properties. When authoring your CSS ensure that it is easy for another developer to find and change things such as fonts and colours.
 
 
-###The Test
+### The Test
 Create a simple page called JOKES to display data available at https://api.chucknorris.io/jokes/search?query=[QUERY] (API specs can be found at https://api.chucknorris.io). When a user access the website a simple Google-like home page is shown with a big search box in the middle. Under the search box a new random JOKE is shown every 3 seconds (API for random JOKE https://api.chucknorris.io/jokes/random).
 By typing one or more term in the searchbox a list of matching JOKES are displayed in the page.
 
 
-###Some Extras
+### Some Extras
 Feel free to add as many improvements you want in the project, both in the source or on the final page/application.
 
-####Extra credits on code:
+#### Extra credits on code:
 - Simplicity, scalability
 - Linter
 - Usage of a template engine
@@ -87,7 +87,7 @@ Feel free to add as many improvements you want in the project, both in the sourc
 - ...Many more
 
 
-####Extra credits on frontend:
+#### Extra credits on frontend:
 - Speed, performance, speed, speed
 - Effects and animation for random JOKE
 - Results displayed in a responsive grid
@@ -156,7 +156,7 @@ Ok now time to add storybook to the project, it actually does not have much sens
 ...that worked out nicer then I taught.
 Configuring sass on storybook took a little because of the css loader module configuration that was not well documented at all and so I decided to call the test done...
 
-##Those things could/should have been added:
+## Those things could/should have been added:
 
 - Husky
 - Category filter on search
@@ -165,7 +165,7 @@ Configuring sass on storybook took a little because of the css loader module con
 - Write more test in the jest+puppeteer e2e test
 
 
-###Thoughts about PReact and Redux Zero:
+### Thoughts about PReact and Redux Zero:
 Writing in PReact seems identical to write in React, yes some stuffs are missing (PropTypes) but usually seams you can add it back if you want, and the kilobyte save is important. Also i really liked the static prerender on the fe.
 Redux zero on the other end did not conviced me 100%.. yes it is faster then using the sagas for example but.. it fells too much clutterd, mybe I am just a reducer guy, it is taste.
 
