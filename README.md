@@ -144,13 +144,13 @@ Now that the component is in the route page (home) I need a css grid system... t
 It starts to be late at night, so I try to speed up: I create the search and decided to copy its css from Google (I mean... they are good with searches no?) I implement the "search while typing" with a debounce utility function that I add to the project. I implement also the abort fetch to be sure to not have strange behavior in case of not sequential responses of multiple api calls.
 (it is not supported on IE but i "gracefully" polyfill it with an empty stub).
 
-I finish the unit test of this part too (Jest is so nice I can speed up the time in the tests, I want it also for the real life), now is starting to be very, very late but I want a nice animation for the results... I decided to try it myself without another library as we said we want all to be light... ok the final result is not as fluid as I wanted and probably the code should be cleaned but at least seams to work well on mobile too.
+I finish the unit test of this part too (Jest is so nice I can speed up the time in the tests, I want it also for the real life), now is starting to be very, very late but I want a nice animation for the results... I decided to try it myself without another library as we said we want all to be light... ok the final result is not as fluid as I wanted and I noticed some bugs, probably the code should be cleaned but at least seams to work well on mobile too.
 
 I decided to come back tomorrow to finish it.
 
 ### The second night
 This evening... well night I started quite later, but I want to finish it in 2 evening max, I decided to go superfast:
-the results component should be split in 2 or 3 other components before doing proper unit test... I want to finish the project so I just add the highlight of the search results (and also it is not well done at all as it should highlight all the occurrences of the word searched not only the first in every joke... well maybe later).
+I start testing and fixing the results animations... the results component should be split in 2 or 3 other components before doing proper unit test... I want to finish the project so after the fixes and testing (on my android too), I just add the highlight of the search results and move on (it is not well done at all as it should highlight all the occurrences of the word searched not only the first in every joke... well maybe later).
 
 Ok now time to add storybook to the project, it actually does not have much sense in this project: I usually use storybook in multipackage monorepo project (APP  and UI) and here the ui is even not split well from the logic... I do it just because it is mentioned in the test: I create 4 stories with some controls, the animation of the search result kinda work in storybook too and you can edit the input array to trigger it
 ...that worked out nicer then I taught.
