@@ -158,7 +158,7 @@ Configuring sass on storybook took a little because of the css loader module con
 
 Time to write, I spend the next hour writing this very readme... it is the second late night in row so, please, don't judge too harshly the babling about my code :)
 
-## Those things could/should have been added:
+## Things that could/should have been added:
 
 - Husky
 - Category filter on search
