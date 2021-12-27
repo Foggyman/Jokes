@@ -38,7 +38,7 @@ const Result = function({ joke, scrollY, searchQuery, onVisibile, index }) {
   let str1 = joke;
   let str2 = '';
   let str3 = '';
-  if (match) {
+  if (match >= 0) {
     str1 = joke.substr(0, match);
     str2 = joke.substr(match, searchQuery.length);
     str3 = joke.substr(match + searchQuery.length, joke.length);
